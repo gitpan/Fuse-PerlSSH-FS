@@ -22,7 +22,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "Test::Virtual::Filesystem" : 0
          }
       },
       "configure" : {
@@ -32,7 +32,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
+            "Daemon::Daemonize" : 0,
             "Data::Dumper" : 0,
             "Fcntl" : 0,
             "File::ExtAttr" : "1.09",
@@ -40,8 +40,7 @@
             "Getopt::Long" : 0,
             "IPC::PerlSSH" : "0.16",
             "POSIX" : 0,
-            "Pod::Usage" : 0,
-            "Test::Virtual::Filesystem" : 0
+            "Pod::Usage" : 0
          }
       }
    },
@@ -51,5 +50,5 @@
          "url" : "https://github.com/clipland/fuse-perlssh-fs"
       }
    },
-   "version" : "0.10"
+   "version" : "0.11"
 }

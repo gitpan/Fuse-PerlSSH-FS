@@ -3,7 +3,7 @@ abstract: 'Mount a remote filesystem via FUSE + PerlSSH'
 author:
   - 'Clipland (clipland@cpan.org)'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  Test::Virtual::Filesystem: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
@@ -18,7 +18,7 @@ no_index:
     - t
     - inc
 requires:
-  Carp: 0
+  Daemon::Daemonize: 0
   Data::Dumper: 0
   Fcntl: 0
   File::ExtAttr: 1.09
@@ -27,7 +27,6 @@ requires:
   IPC::PerlSSH: 0.16
   POSIX: 0
   Pod::Usage: 0
-  Test::Virtual::Filesystem: 0
 resources:
   repository: https://github.com/clipland/fuse-perlssh-fs
-version: 0.10
+version: 0.11
