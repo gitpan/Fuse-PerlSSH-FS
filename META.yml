@@ -29,4 +29,4 @@ requires:
   Pod::Usage: 0
 resources:
   repository: https://github.com/clipland/fuse-perlssh-fs
-version: 0.11
+version: 0.12
